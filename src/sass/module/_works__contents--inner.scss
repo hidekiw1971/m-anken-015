@@ -1,0 +1,12 @@
+@use "global" as *;
+.works__contents--inner {
+  @include mq(md) {
+    height: rem(550);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @include mq(xl) {
+  }
+}
