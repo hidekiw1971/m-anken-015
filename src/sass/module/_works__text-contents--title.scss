@@ -1,0 +1,7 @@
+@use "global" as *;
+.works__text-contents--title {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

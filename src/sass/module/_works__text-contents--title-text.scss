@@ -1,0 +1,14 @@
+@use "global" as *;
+.works__text-contents--title-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-style: normal;
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

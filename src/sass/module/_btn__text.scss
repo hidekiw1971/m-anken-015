@@ -1,0 +1,14 @@
+@use "global" as *;
+.btn__text {
+  font-size: rem(20);
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: $normal;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

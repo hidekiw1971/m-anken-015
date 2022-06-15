@@ -1,0 +1,10 @@
+@use "global" as *;
+.works__inner {
+  display: inline-block;
+  width: 100%;
+  background-color: #111;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
